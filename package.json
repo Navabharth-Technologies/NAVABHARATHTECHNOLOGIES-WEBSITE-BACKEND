@@ -1,0 +1,45 @@
+{
+    "name": "navabharath-technologies-backend",
+    "version": "2.0.0",
+    "description": "Production backend for Navabharath Technologies — careers portal, contact form, ATS webhook sync",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "db:push": "npx prisma db push",
+        "db:migrate": "npx prisma migrate deploy",
+        "db:generate": "npx prisma generate",
+        "db:studio": "npx prisma studio",
+        "postinstall": "npx prisma generate"
+    },
+    "keywords": ["express", "prisma", "postgresql", "resend", "multer", "jwt", "careers"],
+    "author": "Navabharath Technologies",
+    "license": "ISC",
+    "dependencies": {
+        "@prisma/client": "^5.22.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.2",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.22.1",
+        "express-rate-limit": "^7.0.0",
+        "helmet": "^8.0.0",
+        "jsonwebtoken": "^9.0.0",
+        "multer": "^1.4.5-lts.1",
+        "pg-boss": "^9.0.0",
+        "resend": "^3.0.0",
+        "zod": "^3.22.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1",
+        "prisma": "^5.22.0"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Navabharth-Technologies/NAVABHARATHTECHNOLOGIES-WEBSITE-BACKEND.git"
+    },
+    "type": "commonjs"
+}
