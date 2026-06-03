@@ -41,7 +41,7 @@ const upload = multer({
 
 // Returns a publicly accessible URL for the resume file
 function getResumeUrl(filename) {
-  const base = process.env.BACKEND_URL || 'https://company-website-backend-91ia.onrender.com';
+  const base = process.env.BACKEND_URL || 'https://navabharathtechnologies-website-backend.onrender.com';
   return `${base}/uploads/${filename}`;
 }
 

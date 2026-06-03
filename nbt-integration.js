@@ -11,7 +11,7 @@ const crypto = require('crypto');
 // ─────────────────────────────────────────────────────────────────────
 // CONFIGURATION — set these as env variables in YOUR HR tool
 // ─────────────────────────────────────────────────────────────────────
-const CAREERS_BACKEND  = 'https://company-website-backend-91ia.onrender.com';
+const CAREERS_BACKEND  = 'https://navabharathtechnologies-website-backend.onrender.com';
 const ADMIN_API_KEY    = process.env.NBT_ADMIN_KEY    || '3bec00ca0c3b71053899c9de96085aaba8124dba7fd1efa903b47e23be80a746';
 const WEBHOOK_SECRET   = process.env.NBT_WEBHOOK_SECRET; // Must match ATS_WEBHOOK_SECRET on Render
 
